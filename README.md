@@ -1,12 +1,8 @@
 # Checkers
 
-CIS 120 Game Project
+# Core Concepts
 
-# =: Core Concepts :=
-
-- List the four core concepts, the features they implement, and why each feature
-  is an appropriate use of the concept. Incorporate the feedback you got after
-  submitting your proposal.
+- I incorporated four java concepts in my checkers game: subtyping, arrays, collections, and file i/o
 
   1. Subtyping. I made an overall square class that extends JComponent. Checker extends Square. KingChecker extends Checker. 
   Dynamic dispatch is present in my implementation of the subtyping core concept. 
@@ -65,10 +61,8 @@ CIS 120 Game Project
   Furthermore, I also chose to save the moves from the saved game so you can undo moves from the saved game. This adds
   up to three separate states being written to and read from the file. 
 
-# =: Your Implementation :=
+# Implementation
 
-- Provide an overview of each of the classes in your code, and what their
-  function is in the overall game.
 My Square class extends JComponent. A square is a filled in rectangle on the board. 
 The Checker class extends Square. A checker is a piece on the board. It is a filled in ellipse on top of a filled in rectangle.
 A checker piece can only move on the diagonals (the blue squares). Also, it can only move in the "forward" direction relative to
@@ -82,8 +76,7 @@ Game is where I actually make the JFrame. This is more or less unchanged from th
 and undo button.
 
 
-- Were there any significant stumbling blocks while you were implementing your
-  game (related to your design, or otherwise)?
+# Challenges 
   I was trying really hard to make sure I did subtyping properly so it took me a long to plan out all the methods I was going to make
   in the checkers and king checkers classes. This was my primary challenge. It ended up working out well. 
   I probably could have found a way to make checkers without a class for checker pieces. This was one of my initial difficulties because
@@ -93,8 +86,7 @@ and undo button.
   had to do with the fact that I personally find File I/O to be a more difficult concept. Also, I spent a really long time
   trying to figure out why my save game was not working only to realize that I was using == instead of .equals on strings.
 
-- Evaluate your design. Is there a good separation of functionality? How well is
-  private state encapsulated? What would you refactor, if given the chance?
+# Encapsulation and Separation of Functionality
   
   There is some separation of functionality. The board game deals with objects on the board. The Game class
   deals with adding objects to the JFrame. The Squares classes deal with moves associated to a single object.
@@ -110,14 +102,8 @@ and undo button.
   buttons. The undo moves button is accessed in the Game class.
   However, encapsulation is not broken because
   you cannot modify the collection directly and break the game.
-  
-  I would refactor the jumpPossibilities() methods because they are sort of repetitive. Also, I would make more helper functions to make
-  the action listener in the board less chaotic looking. I could probably have combined it into some sort of other method. 
 
-# =: External Resources :=
-
-- Cite any external resources (libraries, images, tutorials, etc.) that you may
-  have used while implementing your game.
+# External Resources
   
   https://ctycms.com/mn-rochester/docs/checkers-instructions.pdf
 
