@@ -1,5 +1,7 @@
 # Checkers
 
+I created this game for the CIS 120 Game Project in Fall 2020
+
 # Core Concepts
 
 - I incorporated four java concepts in my checkers game: subtyping, arrays, collections, and file i/o
