@@ -4,9 +4,7 @@
 CIS 120 Game Project README
 =:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=
 
-===================
 =: Core Concepts :=
-===================
 
 - List the four core concepts, the features they implement, and why each feature
   is an appropriate use of the concept. Incorporate the feedback you got after
@@ -69,9 +67,7 @@ CIS 120 Game Project README
   Furthermore, I also chose to save the moves from the saved game so you can undo moves from the saved game. This adds
   up to three separate states being written to and read from the file. 
 
-=========================
 =: Your Implementation :=
-=========================
 
 - Provide an overview of each of the classes in your code, and what their
   function is in the overall game.
@@ -120,9 +116,7 @@ and undo button.
   I would refactor the jumpPossibilities() methods because they are sort of repetitive. Also, I would make more helper functions to make
   the action listener in the board less chaotic looking. I could probably have combined it into some sort of other method. 
 
-========================
 =: External Resources :=
-========================
 
 - Cite any external resources (libraries, images, tutorials, etc.) that you may
   have used while implementing your game.
