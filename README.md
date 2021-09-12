@@ -1,6 +1,6 @@
 # Checkers
 
-I created this game for the CIS 120 Game Project in Fall 2020
+I created this game for Programming Languages and Techniques at the University of Pennsylvania in Fall 2020
 
 # Core Concepts
 
