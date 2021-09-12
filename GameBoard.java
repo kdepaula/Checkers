@@ -1,9 +1,3 @@
-/**
- * CIS 120 HW09 - TicTacToe Demo
- * (c) University of Pennsylvania
- * Created by Bayley Tuch, Sabrina Green, and Nicolas Corona in Fall 2020.
- */
-
 import java.awt.*;
 import java.awt.event.*;
 import java.io.BufferedReader;
